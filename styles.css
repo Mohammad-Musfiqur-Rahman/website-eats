@@ -17,11 +17,11 @@ body{
 .orange {
     color: orange;
 }
-.head-left{
+.head-left {
     width: 45%;
     margin-left: 4%;
 }
-.head-right{
+.head-right {
     width: 45%;
     margin-left: 3%;
 }
@@ -43,3 +43,18 @@ body{
 
 
 /************************ About Me ******************************/
+
+.about-me {
+    background-image: url(img/shapes/7.png);
+    display: flex;
+    padding: 50px 0;
+}
+
+.about-me h1 {
+    color:orange;
+    font-size: 41px
+}
+
+.about-me-left img {
+
+}
