@@ -1,3 +1,42 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/************************ Header part ******************************/
+
+.header {
+    display: flex;
+    background-color: #ecf0f1;
+    padding-top: 40px;
+    padding-bottom: 40px;  
+}
+.head-left h1 {
+    font-size: 41px;
+}
+.orange {
+    color: orange;
+}
+.head-left{
+    width: 45%;
+    margin-left: 4%;
+}
+.head-right{
+    width: 45%;
+    margin-left: 3%;
+}
+
+.head-right img {
+    width: 95%;
+    border-radius: 25px;
+}
+
+.oder-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 15px 30px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    float: right;
 }
